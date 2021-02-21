@@ -1,7 +1,6 @@
 body {
 	margin: 0px; 
 	background-color: #E6E6FA;
-
 }
 
 .banner {	
@@ -79,11 +78,8 @@ body {
 	flex: 30%;
 	display: flex;
 	flex-direction: column;
-}
-
-#twodogs, #huskiepaw {
-	height: 100%;
-	width: 100%;
+	height: auto;
+	width: 10%;
 }
 
 .footer {
