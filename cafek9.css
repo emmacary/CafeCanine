@@ -64,7 +64,7 @@ body {
 	margin-right: 6%;
 }
 
-#dogseat {
+.dog {
 	flex: 30%;
 	width: 10%;
 	height: auto;
@@ -72,18 +72,6 @@ body {
 
 .table {
   	column-width: 150%;
-}
-
-.rightColumn {
-	flex: 30%;
-	display: flex;
-	flex-direction: column;
-}
-
-.dogs {
-	flex: 50%;
-	height: auto;
-	width: 100%;
 }
 
 .footer {
