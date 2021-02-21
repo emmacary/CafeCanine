@@ -1,0 +1,114 @@
+body {
+	margin: 0px; 
+	background-color: #E6E6FA;
+}
+
+.banner {	
+    background-color: #CAA5E4;
+	text-align: center;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.sticky {
+	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+}
+
+.logo {
+	width: 10%; 
+	height: auto; 
+	margin: 0px;
+	float: left;
+}
+
+.navBar {
+	display: flex;
+	align-items: center;
+}
+
+#home, #menu, #contact {
+	color: #654321;
+    font-family:"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 2vw;
+	flex: 20%;
+	margin: 3%;
+}
+
+.content {
+	color: #654321;
+    font-family:"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 2vw;
+}
+
+#cafe {
+	width: 100%;
+	height: 5%;
+	overflow: hidden;
+}
+
+.intro {
+	margin: 3%;
+	margin-bottom: 6%;
+}
+
+.flexContainer {
+	width: 100%;
+	display: flex;
+}
+
+.info {
+	flex: 40%;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+#dogseat {
+	flex: 30%;
+	width: 10%;
+	height: auto;
+}
+
+.table {
+  	column-width: 150%;
+}
+
+.rightColumn {
+	flex: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+#twodogs, #huskiepaw {
+	width: 100%;
+	height: 100%;
+}
+
+.footer {
+	background-color: #CAA5E4;
+	text-align: center;
+	overflow: hidden;
+	color: #654321;
+    font-family:"Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 1vw;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 1%;
+}
+
+.subHead {
+	text-align: center;
+}
+
+.menuItem {
+	flex: 50%;
+	text-align: center;
+}
+
+.menuPics {
+	width: 50%;
+	height: auto;
+	align-items: center;
+}
